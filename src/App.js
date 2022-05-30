@@ -203,4 +203,4 @@ function Update() {
     gameSpeed += 0.003;
 }
 
-Start();
+export default Start;
