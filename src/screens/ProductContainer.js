@@ -15,9 +15,9 @@ const ProductContainer = () => {
     }
 
     return (<>
-        <h1>Sum of Two Numbers!!!</h1>
-        <Enterhere numbers here handleAddProduct={handleAddProduct}/>
-        <ListResults products = {products}/>
+        <h1>Product Container</h1>
+        <AddProduct handleAddProduct={handleAddProduct}/>
+        <ListProduct products = {products}/>
     </>);
 }
 
